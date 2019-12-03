@@ -667,6 +667,8 @@ a.button {
   text-decoration:none;
   position:relative;
   transition: all 0.4s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 #contact a.social::after {
