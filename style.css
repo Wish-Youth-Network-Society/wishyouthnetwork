@@ -622,7 +622,7 @@ a.button {
   font-size:16px;
 }
 
-.internals-inner .row .portraits .portrait h5 {
+.internals-inner .row .portraits .portrait h5, h5 {
   font-family:"Poppins", sans-serif;
   text-transform:uppercase;
   letter-spacing:1px;
