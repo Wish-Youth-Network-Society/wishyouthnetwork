@@ -1020,7 +1020,7 @@ footer h1::after {
     
   }
 
-   .text-noborder h5, h5 {
+   h5 {
     font-family:"Poppins", sans-serif;
     text-transform:uppercase;
     font-size:12px;
