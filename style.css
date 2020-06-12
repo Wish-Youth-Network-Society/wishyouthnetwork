@@ -43,6 +43,12 @@ h1 {
   line-height:40px;
 }
 
+ h5 {
+   font-family:"Poppins", sans-serif;
+   text-transform:uppercase;
+   font-size:12px;
+  }
+
 header {
   height:200px;
   width:100vw;
@@ -1018,12 +1024,6 @@ footer h1::after {
     padding: 0 40px;
     margin: 0 20px;
     
-  }
-
-   h5 {
-    font-family:"Poppins", sans-serif;
-    text-transform:uppercase;
-    font-size:12px;
   }
 
   #contact {
