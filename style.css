@@ -276,6 +276,7 @@ section h1::after{
   width:100%;
   padding:50px 0 0 0;
   display:flex;
+  justify-content:space-between;
 }
 
 .ourteamtext {
@@ -1009,6 +1010,20 @@ footer h1::after {
 
   .internals .portrait h5 {
     display:none;
+  }
+  
+  .stats {
+    box-sizing: content-box;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 20px;
+    
+  }
+
+   .text-noborder h5, h5 {
+    font-family:"Poppins", sans-serif;
+    text-transform:uppercase;
+    font-size:12px;
   }
 
   #contact {
