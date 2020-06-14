@@ -1031,6 +1031,7 @@ footer h1::after {
     padding:15px;
     height:125px !important;
     width:125px !important;
+    object-fit: cover;
   }
   
   .stats {
