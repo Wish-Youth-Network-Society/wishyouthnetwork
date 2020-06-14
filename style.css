@@ -1018,15 +1018,7 @@ footer h1::after {
     display:none;
   }
   
-  .stats {
-    box-sizing: content-box;
-    width: 100%;
-    padding: 0 40px;
-    margin: 0 20px;
-    
-  }
-  
-  .partner {
+   .partner {
     box-sizing: content-box;
     width: 100%;
     padding: 0 40px;
@@ -1039,6 +1031,14 @@ footer h1::after {
     padding:15px;
     height:125px !important;
     width:125px !important;
+  }
+  
+  .stats {
+    box-sizing: content-box;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 20px;
+    
   }
 
   #contact {
