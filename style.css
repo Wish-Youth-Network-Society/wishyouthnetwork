@@ -641,6 +641,15 @@ a.button {
   height:150px;
 }
 
+#partners .portrait img {
+    box-sizing: border-box;
+    padding:15px;
+    height:125px !important;
+    width:125px !important;
+    object-fit: cover;
+    width:100%;
+  }
+
 .creds {
   display:table;
   padding-bottom:10px;
@@ -1016,14 +1025,6 @@ footer h1::after {
 
   .internals .portrait h5 {
     display:none;
-  }
-    
-  #partners .portrait img {
-    box-sizing: border-box;
-    padding:15px;
-    height:125px !important;
-    width:125px !important;
-    object-fit: cover;
   }
 
   .stats {
