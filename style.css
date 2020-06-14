@@ -1025,7 +1025,7 @@ footer h1::after {
     width:125px !important;
     object-fit: cover;
   }
-  
+
   .stats {
     box-sizing: content-box;
     width: 100%;
