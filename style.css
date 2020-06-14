@@ -1020,7 +1020,8 @@ footer h1::after {
   
    .partner {
     box-sizing: content-box;
-    width: 100%;
+    width:150px;
+    height:150px;
     padding: 0 40px;
     margin: 0 20px;
     
