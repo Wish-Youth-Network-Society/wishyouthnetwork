@@ -1017,17 +1017,8 @@ footer h1::after {
   .internals .portrait h5 {
     display:none;
   }
-  
-   .partner {
-    box-sizing: content-box;
-    width:150px;
-    height:150px;
-    padding: 0 40px;
-    margin: 0 20px;
     
-    }
-    
-  .partner img {
+  #partners .portrait img {
     box-sizing: border-box;
     padding:15px;
     height:125px !important;
