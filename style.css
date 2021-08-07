@@ -1,4 +1,4 @@
-:root {
+    :root {
   --colour-green: #1A936F;
   --colour-light-green: #48A98C;
   --colour-transparent-green: rgba(26,147,111,0.8);
@@ -423,9 +423,9 @@ p {
 .ourteam .grid {
   width:100%;
   padding-top:20px;
-  display:flex;
+  /*display:flex;
   flex-wrap:wrap;
-  justify-content: space-between;
+  justify-content: space-between;*/
 }
 
 .ourteam .row:first-child {
@@ -440,15 +440,29 @@ p {
   justify-content: space-between;
 }
 
+.profilepic-container {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
 .ourteam .item {
-  width:18%;
-  min-width:235px;
+  width:20%;
   height:100%;
+  float: left;
   margin-bottom:50px;
 }
 
+.item-description {
+    width: 78%;
+    float: left;
+    padding: 2%;
+    padding-top: 0;
+    font-family: "Poppins";
+}
+
 .ourteam .item img {
-  height:375px;
+  height:275px;
   background:#48A98C;
   width:100%;
   object-fit:cover;
@@ -908,6 +922,10 @@ footer h1::after {
     padding-top:50px;
     justify-content: space-around;
   }
+  
+  .item-description {
+      font-size: 14px;
+  }
 
   .container {
     width:100%;
@@ -1061,4 +1079,18 @@ footer h1::after {
     height:100vh;
   }
 
+}
+
+@media only screen and (max-width: 788px) {
+  .item-description {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .item-description {
+      font-size: 9px;
+      padding: 15px;
+      padding-top: 0;
+  }
 }
