@@ -10,121 +10,6 @@
     <link rel="icon" href="favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css">
 
-<style>
-.wynsSlides {display: none;}
-
-.slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-.text1-1 {
-  color: white;
-  font-family:"Poppins", sans-serif;
-  font-weight:900;
-  letter-spacing:5px;
-  text-transform:uppercase;
-  height:40px;
-  line-height:40px;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-
-.text1-2 {
-  color: white;
-  font-family:"Poppins", sans-serif;
-  font-weight:900;
-  letter-spacing:5px;
-  text-transform:uppercase;
-  height:40px;
-  line-height:40px;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-
-.text2 {
-  color: white;
-  font-family:"Poppins", sans-serif;
-  font-weight:800;
-  letter-spacing:3.5px;
-  text-transform:uppercase;
-  height:40px;
-  line-height:40px;
-  font-size: 22px;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-
-.moreInfo {
-    font-size: 22px;
-    font-family: 'Poppins';
-    font-weight: 800;
-    color: white;
-    background-color: rgba(26,147,111,0.7);
-    padding: 5px 10px 5px 10px;
-}
-
-.circle {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.slideshows {
-    height: 100vh;
-    object-fit:cover;
-}
-
-.active {
-  background-color: #717171;
-}
-
-.transition {
-  -webkit-animation-name: transition;
-  -webkit-animation-duration: 1.5s;
-  animation-name: transition;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes transition {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes transition {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@media only screen and (max-width: 790px) {
-    .text1-1 {
-      position: absolute;
-      top: 45%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-}
-</style>
-
   </head>
   <body>
     <header>
@@ -138,21 +23,15 @@
       </nav>
     </header>
 
-<div class="slideshow-container">
+ <div class="landing-img" data-parallax="scroll" data-image-src="landing.png"></div>
+    <div class="greenbar"> </div>
+    <div class="landing">
+      <div class="container">
+        <h1>Wish Youth Network Society</h1>
+        <h2>Igniting Hope</h2>
+      </div>
+    </div>
 
-<div class="wynsSlides transition">
-  <img class="slideshows" src="landing.png" style="width:100%">
-  <div class="text1-1">Wish Youth Network Society</div>
-    <div class="text2">Igniting Hope</div>
-</div>
-
-<div class="wynsSlides transition">
-  <img class="slideshows" src="BakeSale.png" style="width:100%">
-  <div class="text1-2" style="color: black;">Bake Sale Fundraiser</div>
-    <div class="text2" style="color: black;">WYNS X Canuck <br> <a href="bakesale.html" class="moreInfo" target="_blank">More Information</a></div>
-</div>
-
-</div>
 <br>
 
 <div style="text-align:center">
@@ -160,28 +39,6 @@
   <span class="circle"></span> 
 </div>
 
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("wynsSlides");
-  var dots = document.getElementsByClassName("circle");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000);
-}
-</script>
-    
     <section id="about">
       <div class="containerlarge">
         <div class="container">
@@ -229,51 +86,6 @@ function showSlides() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container" style="padding-top: 125px;">
-          <h1>Bake Sale Fundraiser</h1>
-          <div class="text-text"><h2>WYNS X CANUCK PLACE</h2></div>
-          <div class="container-inner">
-            <div class="text">
-              <div class="text-text">
-                <h2>What?</h2>
-                <p>
-                    Wish Youth Network Society is hosting a pre-order bake sale to help support Canuck Place Children Hospice. Canuck Place Children Hospice is British Columbia's top pediatric care provider for children with life-threatening illnesses and their families. We will selling a variety of treats, such as matcha macrons, tiramisu, and oreo brownies.
-                </p>
-                <h2>How?</h2>
-                <p>
-                    The pre-order bake sale will be on the 11th of September. Treats are available for pick-up at Marine Gateway Vancouver on September 11 at 2 p.m. PST
-                </p>
-                <div class="list">
-                  <div class="list-row">
-                    <div class="list-left">
-                      <h3>1</h3>
-                    </div>
-                    <div class="list-right">
-                      <p>
-                       We will only accepting e-Transfers!
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-row">
-                    <div class="list-left">
-                      <h3>2</h3>
-                    </div>
-                    <div class="list-right">
-                      <p>
-                        <a class="button" href="bakesale.html" target="_blank">More Information</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-noborder" id="team">
-              <div class="team-inner">
-                <h1>Our Team</h1>
               </div>
             </div>
           </div>
